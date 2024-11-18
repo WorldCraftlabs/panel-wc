@@ -5,8 +5,8 @@ const { Command } = require('commander');
 const program = new Command();
 
 program
-    .version("0.1.0-beta6")
-    .description("Command Line Interface for the Skyport Panel");
+    .version("0.1.0-beta2")
+    .description("Command Line Interface for the Worldcraft Panel");
 
 program
     .command('seed')
